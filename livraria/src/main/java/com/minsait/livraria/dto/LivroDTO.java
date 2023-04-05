@@ -41,6 +41,8 @@ public class LivroDTO {
 		return livroDTO;
 	}
 	
+	
+	
 	public static Livro retornalivro(LivroDTO livroDTO) {
 		Livro livro = new Livro(livroDTO.getTitulo(), livroDTO.getAno(), livroDTO.getQuantidade(), livroDTO.getValorUnitario(), livroDTO.getStatus());
 		return livro;
